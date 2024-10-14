@@ -1,5 +1,5 @@
 # Mini-project-2
-Nama: Dinda Aulia Rizky    NIM: 2409116076
+Nama: Dinda Aulia Rizky    NIM: 2409116076     Tema: Penyewaan baju adat
 
 # ***Program Penyewaan Baju Adat***
 
