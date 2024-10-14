@@ -22,7 +22,7 @@ def tampilkan_daftar_baju():
     print(table)
 
 '''==============================================================================================================================='''
-'''                                                           Create (Menambah daftar baju)                                       '''
+'''                                                           Create (Menambah daftar baju)                                        '''
 '''==============================================================================================================================='''
 
 def tambah_baju(Kode_baju, nama, masa_sewa, harga_sewa):
@@ -71,7 +71,7 @@ def sewa_baju(Kode_baju, nama_penyewa, lama_sewa):
             else:
                 harga_normal = baju["harga_sewa"]
                 hari_tambahan = lama_sewa - baju["masa_sewa"]
-                harga_tambahan = int(harga_normal * 0.1) * hari_tambahan  
+                harga_tambahan = int(harga_normal * 0.1) * hari_tambahan  # 10% dari harga normal per hari tambahan
                 harga_total = harga_normal + harga_tambahan
             
             riwayat_sewa.append({
